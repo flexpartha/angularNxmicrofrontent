@@ -8,6 +8,8 @@ import { AuthInterceptor, AuthModule } from '@customer-admin-portal/auth';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { LayoutModule } from '@customer-admin-portal/layout';
 import { HTTP_INTERCEPTORS,HttpClientModule } from '@angular/common/http';
+import { DynamicTableModule } from '@customer-admin-portal/dynamic-table';
+import { ServicesModule } from '@customer-admin-portal/services';
 @NgModule({
   declarations: [AppComponent, NxWelcomeComponent],
   imports: [
@@ -16,7 +18,9 @@ import { HTTP_INTERCEPTORS,HttpClientModule } from '@angular/common/http';
     HttpClientModule,
     RouterModule.forRoot(appRoutes, { initialNavigation: 'enabledBlocking' }),
     //AuthModule,
-    LayoutModule
+    LayoutModule,
+    DynamicTableModule,
+    ServicesModule
   ],
   providers: [
     {

@@ -1,0 +1,12 @@
+<table class="product">
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Category</th>
+    </tr>
+    <tr *ngFor="let product of tabularData; let i = index;">
+      <td>{{product.id}}</td>
+      <td>{{product.name}}</td>
+      <td>{{product.category}}</td>
+    </tr>
+</table>

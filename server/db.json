@@ -72,5 +72,37 @@
         "name": "Paint",
         "category": "paint"
       }
+    ],
+    "products2": [
+      {
+        "id": 7,
+        "name": "Gpnanner",
+        "category": "tools7"
+      },
+      {
+        "id": 8,
+        "name": "Jammer",
+        "category": "tools8"
+      },
+      {
+        "id": 9,
+        "name": "Screw",
+        "category": "tools9"
+      },
+      {
+        "id": 10,
+        "name": "Paint brush NUMBER 10",
+        "category": "paint10"
+      },
+      {
+        "id": 11,
+        "name": "Paint roller NUMBER11",
+        "category": "paint 11"
+      },
+      {
+        "id": 12,
+        "name": "Paint--12",
+        "category": "paint12"
+      }
     ]
   }

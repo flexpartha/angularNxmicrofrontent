@@ -17,9 +17,14 @@
     "paths": {
       "@customer-admin-portal/auth": ["auth/src/index.ts"],
       "@customer-admin-portal/data-models": ["data-models/src/index.ts"],
+      "@customer-admin-portal/dynamic-table": ["dynamic-table/src/index.ts"],
       "@customer-admin-portal/layout": ["layout/src/index.ts"],
       "@customer-admin-portal/material": ["material/src/index.ts"],
-      "@customer-admin-portal/products": ["products/src/index.ts"]
+      "@customer-admin-portal/products": ["products/src/index.ts"],
+      "@customer-admin-portal/randombackground": [
+        "randombackground/src/index.ts"
+      ],
+      "@customer-admin-portal/services": ["services/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
