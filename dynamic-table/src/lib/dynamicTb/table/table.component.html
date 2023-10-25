@@ -4,7 +4,8 @@
       <th>Name</th>
       <th>Category</th>
     </tr>
-    <tr *ngFor="let product of tabularData; let i = index;">
+    <tr *ngFor="let product of tabularData; let i = index; let last = last; let odd = odd; let even = even;"
+    [ngClass]="{'Odd':odd, 'even':even}">
       <td>{{product.id}}</td>
       <td>{{product.name}}</td>
       <td>{{product.category}}</td>
